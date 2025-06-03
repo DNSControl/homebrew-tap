@@ -13,17 +13,17 @@ cask "dnscontrol" do
 
   on_macos do
     url "https://github.com/DNSControl/dnscontrol/releases/download/v4.20.1/dnscontrol_4.20.1_darwin_all.tar.gz"
-    sha256 "bf4e6b4382814bc2d04ab2e6b36174f945c4142270176657d12993e32dcd57ab"
+    sha256 "426d2fd40fa55cf850f716b018bdea19b1a9a1695b9f1705087edd138c33a9fc"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DNSControl/dnscontrol/releases/download/v4.20.1/dnscontrol_4.20.1_linux_amd64.tar.gz"
-      sha256 "bdf938dd8ca84050ef30688bc43aed68f425d6f3421e7443b12f5fdb1aa157a6"
+      sha256 "8a57e57de9224ece55a517ce00c6132bc8fbd297a2df29609911169b65fae103"
     end
     on_arm do
       url "https://github.com/DNSControl/dnscontrol/releases/download/v4.20.1/dnscontrol_4.20.1_linux_arm64.tar.gz"
-      sha256 "c0c10676975256b3fe1b05bfca99855384e9c69bce29412b78a2ea5be04c4f1c"
+      sha256 "b8c5ed93b94566d5fe4f7441d3b69530ac47159a72594787efb15480f724a007"
     end
   end
 
